@@ -1,5 +1,5 @@
 body{
-  background-image: url(../img/bg.jpg);
+  background-image: url(../img/bg_.jpg);
   font-family: Tahoma, Verdana, Segoe, sans-serif;
   font-size: 14px;
 }
@@ -8,6 +8,7 @@ body{
   -webkit-box-shadow: -1px 4px 13px 0px rgba(0,0,0,0.55);
   -moz-box-shadow: -1px 4px 13px 0px rgba(0,0,0,0.55);
   box-shadow: -1px 4px 13px 0px rgba(0,0,0,0.55);
+  border-bottom: 3px solid #031d28;
 }
 
 .clearfix:after{
@@ -25,7 +26,6 @@ body{
 
 /* HEADER */
 .header{
-  margin-top: 38px;
   height: 175px;
   background: #ffffff;
 }
@@ -92,10 +92,12 @@ body{
   background: -ms-linear-gradient(top,  rgba(55,55,55,1) 0%,rgba(48,48,48,1) 100%); /* IE10+ */
   background: linear-gradient(to bottom,  rgba(55,55,55,1) 0%,rgba(48,48,48,1) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', endColorstr='#303030',GradientType=0 ); /* IE6-9 */
+  padding-left: 57px;
 }
 
 .navigation li{
   float: left;
+  display: inline-block;
 }
 
 .navigation li:first-child{
@@ -108,8 +110,9 @@ body{
   text-decoration: none;
   color: #ffffff;
   line-height: 28px;
-  padding: 0 35px;
+  padding: 0 50px 0 10px;
 }
+
 
 .navigation ul{
   display: none;
@@ -121,6 +124,7 @@ body{
 
 .navigation ul li{
   float: none;
+  display: block;
 }
 
 .navigation li:hover > ul{
@@ -132,10 +136,8 @@ body{
 }
 
 .navigation li:hover > a{
-   background: #4a4a4a;
+  background: #4a4a4a;
 }
-
-
 
 /* CONTENT */
 .content {
@@ -188,5 +190,5 @@ body{
   text-align: center;
   font-size: 12px;
   color: #ffffff;
-  line-height: 30px;
+  line-height: 27px;
 }

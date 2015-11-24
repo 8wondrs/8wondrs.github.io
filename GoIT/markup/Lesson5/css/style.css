@@ -26,10 +26,15 @@
   display: block;
 }
 
+body {
+  background-image: url(../img/bg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
 /* WRAPPER */
 .wrapper{
-  background-image: url(../img/bg_no.png);
-  background-repeat: no-repeat;
   width: 1215px;
   height: 1064px;
   display: block;
@@ -54,7 +59,7 @@
 
 .topmenu_left{
   float: right;
-  width: 391px;
+  width: 393px;
 }
 
 .topmenu_center{
